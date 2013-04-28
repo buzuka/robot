@@ -1,0 +1,5 @@
+Required components:
+
+ * bt_arduino - arduino sketch, hardware required:
+     arduino uno, bluetooth shield, motor shield.
+ * bt - MS RDS project, implements all robot's logic
