@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<SerialCOMServiceState xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://www.microsoft.com/2011/07/serialcomservice.html">
+	<PortNumber>5</PortNumber>
+	<BaudRate>38400</BaudRate>
+	<Parity>None</Parity>
+	<DataBits>8</DataBits>
+	<StopBits>One</StopBits>
+	<ReadTimeout>500</ReadTimeout>
+	<WriteTimeout>500</WriteTimeout>
+	<Handshake>None</Handshake>
+	<RtsEnable>false</RtsEnable>
+	<DtrEnable>false</DtrEnable>
+	<DiscardNull>false</DiscardNull>
+	<Asynchronous>false</Asynchronous>
+	<AutoConnect>false</AutoConnect>
+	<IsConnected>false</IsConnected>
+</SerialCOMServiceState>

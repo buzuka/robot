@@ -1,0 +1,29 @@
+<?xml version="1.0" ?>
+<Manifest
+    xmlns="http://schemas.microsoft.com/xw/2004/10/manifest.html"
+    xmlns:dssp="http://schemas.microsoft.com/xw/2004/10/dssp.html"
+    xmlns:this="urn:uuid:b84fcf65-a659-4001-829e-3aae0232e0e2"
+    >
+  <CreateServiceList>
+    <ServiceRecordType>
+      <dssp:Contract>http://www.microsoft.com/2011/07/serialcomservice.html</dssp:Contract>
+      <dssp:PartnerList>
+        <dssp:Partner>
+          <dssp:Contract>http://www.microsoft.com/2011/07/serialcomservice.html</dssp:Contract>
+          <dssp:Service>serialcomservice.config.xml</dssp:Service>
+          <dssp:PartnerList />
+          <dssp:Name>dssp:StateService</dssp:Name>
+        </dssp:Partner>
+      </dssp:PartnerList>
+      <Name>this:SerialCOMService</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.microsoft.com/robotics/2006/05/multidevicewebcamservice.html</dssp:Contract>
+      <dssp:PartnerList />
+      <Name>this:WebCam</Name>
+    </ServiceRecordType>
+    <ServiceRecordType>
+      <dssp:Contract>http://schemas.tempuri.org/2013/03/bt.html</dssp:Contract>
+    </ServiceRecordType>
+  </CreateServiceList>
+</Manifest>
